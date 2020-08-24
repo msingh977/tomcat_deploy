@@ -288,7 +288,20 @@
         </plugins>
         
       </build>
+ <distributionManagement>
+	<repository>
+		<id>msingh977</id>
+		<name>msingh977-release</name>
+		<url>http://3.83.18.179:8044/nexus/content/repositories/msingh977/</url>
+	</repository>
+ 
+	<snapshotRepository>
+		<id>msingh977</id>
+		<name>msingh977-release</name>
+		<url>http://3.83.18.179:8044/nexus/content/repositories/msingh977/</url>
+	</snapshotRepository>
 
+</distributionManagement>
       <properties>
         <integration.protocol>http</integration.protocol>
         <integration.serverName>localhost</integration.serverName>
